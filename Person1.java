@@ -31,3 +31,22 @@ Public class Person
   }
   public void setLastName(String Lastname)
   {
+ {
+ this.firstname=firstname;
+ }
+ public void setLastname(String Lastname)
+ {
+ this.Lastname=Lastname;
+ }
+ public String getFirstName () {
+ return this.Firstname;
+ }
+ public String getLastname() {
+ return this Lastname;
+ }
+ public void printDetails() {
+ Sytem.out.println(getFirstname + " " + getLastname);
+ }
+ }
+ }
+ }
